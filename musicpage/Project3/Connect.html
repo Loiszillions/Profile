@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <style>
+    .fa-home{
+        color: aliceblue;
+        padding-top: 7px;
+        padding-left: 8px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+    }
+    .home{
+        width: 35px;
+        height: 35px;
+        border-radius: 17.5px;
+        background-color: dimgray;
+    }
+    .fa-user{
+        color: aliceblue;
+        padding-top: 8px;
+        padding-left: 10px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+    }
+    .user{
+        width: 35px;
+        height: 35px;
+        border-radius: 17.5px;
+        background-color: dimgray;
+        margin-top: 15px;
+    }
+    .fa-briefcase{
+        color: aliceblue;
+        padding-top: 9px;
+        padding-left: 9px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+    }
+    .briefcase{
+        width: 35px;
+        height: 35px;
+        border-radius: 17.5px;
+        background-color: dimgray;
+        margin-top: 15px;
+    }
+    .fa-envelope-open{
+        color: aliceblue;
+        padding-top: 8px;
+        padding-left: 9px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+    }
+    .envelope{
+        width: 35px;
+        height: 35px;
+        border-radius: 17.5px;
+        background-color: rgb(249, 197, 6);
+        margin-top: 15px;
+    }
+    .fa-comments{
+        color: aliceblue;
+        padding-top: 8px;
+        padding-left: 8px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+    }
+    .comments{
+        width: 35px;
+        height: 35px;
+        border-radius: 17.5px;
+        background-color: dimgray;
+        margin-top: 15px;
+    }
+    .icons{
+        position: relative;
+        margin-top: 200px;
+        margin-left: 1150px;
+    }
+    body{
+        background-color: rgba(0, 0, 0, 0.936);
+        opacity: 0.8;
+    }
+    .contact{
+        margin-top: -520px;
+        margin-left: 390px;
+        opacity: 0.09 ;
+    }
+    .get-in-touch{
+        margin-top: -176px;
+        margin-left: 441px;
+    }
+    /* img{
+        width: 300px;
+        height: 210px;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    } */
+    div > i:hover {
+        color: rgb(249, 197, 6);
+    }
+    .SHY{
+        margin-top: 80px;
+        margin-left: 100px;
+        line-height: 16px;
+    }
+    .fa-facebook-f{
+        color: aliceblue;
+        padding-top: 7px;
+        padding-left: 8px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+    }
+    .facebook{
+        width: 30px;
+        height: 30px;
+        border-radius: 17.5px;
+        background-color: dimgray;
+        margin-top: 15px;
+        margin-left: 100px;
+    }
+    .fa-twitter{
+        color: aliceblue;
+        padding-top: 7px;
+        padding-left: 7px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+    }
+    .twitter{
+        width: 30px;
+        height: 30px;
+        border-radius: 17.5px;
+        background-color: dimgray;
+        margin-top: -30px;
+        margin-left: 140px;
+    }
+    .fa-youtube{
+        color: aliceblue;
+        padding-top: 7px;
+        padding-left: 5px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+    }
+    .youtube{
+        width: 30px;
+        height: 30px;
+        border-radius: 17.5px;
+        background-color: dimgray;
+        margin-top: -29px;
+        margin-left: 179px;
+    }
+    .fa-instagram{
+        color: aliceblue;
+        padding-top: 6.5px;
+        padding-left: 7px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+    }
+    .instagram{
+        width: 30px;
+        height: 30px;
+        border-radius: 17.5px;
+        background-color: dimgray;
+        margin-top: -30px;
+        margin-left: 217px;
+    }
+    .inst{
+        width: 30px;
+        height: 15px;
+        border-radius: 2px;
+        background-color: dimgray;
+        margin-top: 250px;
+    }
+    .fa-envelope{
+        color: rgb(249, 197, 6);
+        font-size: 45px;
+        margin-top: -20px;
+        margin-left: 100px;
+    }
+    .fa-phone-square{
+        color: rgb(249, 197, 6);
+        font-size: 46px;
+        margin-left: 100px;
+    }
+    .text-name > form > label > input{
+        border-radius: 15px;
+        color: whitesmoke;
+        background-color: rgb(69, 69, 69);
+        width: 180px;
+        height: 35px;
+    }
+    .text-name{
+        margin-top: -552px;
+        margin-left: 440px;
+    }
+    .text-mail > form > label > input{
+        border-radius: 15px;
+        color: whitesmoke;
+        background-color: rgb(69, 69, 69);
+        width: 180px;
+        height: 35px;
+    }
+    .text-mail{
+        margin-top: -39px;
+        margin-left: 645px;
+    }
+    .text-subject > form > label > input{
+        border-radius: 15px;
+        color: whitesmoke;
+        background-color: rgb(69, 69, 69);
+        width: 180px;
+        height: 35px;
+    }
+    .text-subject{
+        margin-top: -41px;
+        margin-left: 853px;
+    }
+    .text-message > form > textarea{
+        border-radius: 20px;
+        color: whitesmoke;
+        background-color: darkgray;
+    }
+    .text-message{
+        margin-top: 21px;
+        margin-left: 450px;
+    }
+    button{
+        background: rgb(249, 197, 6);;
+        border: 0;
+        color: white;
+        padding: 10px;
+        width: 160px;
+        height: 37px;
+        border-radius: 50px;
+        margin-top: 25px;
+        margin-left: 450px;
+    }
+    .mail-me{
+        margin-top: -56px;
+        margin-left: 154px;
+    }
+    .e-mail{
+        margin-top: -15px;
+        margin-left: 154px;
+    }
+    .call-me{
+        margin-top: -60px;
+        margin-left: 154px;
+    }
+    .phone-number{
+        margin-top: -11px;
+        margin-left: 154px;
+    }
+  </style>
+</head>
+<body>
+    <div class="icons">
+        <a href="/index.html">
+        <div class="home">
+            <i class="fa fa-home"></i>
+        </div>
+        </a>
+        <a href="/musicpage/Project3/layout.html">
+            <div class="user">
+                <i class="fa fa-user"></i>
+            </div>  
+        </a>
+        <a href="/musicpage/Project3/pagethr.html">
+            <div class="briefcase">
+                <i class="fa fa-briefcase"></i>
+            </div>
+        </a>
+        <div class="envelope">
+            <i class="fa fa-envelope-open"></i>
+        </div>
+        <a href="/musicpage/Project3/Post_layout.html">
+            <div class="comments">
+                <i class="fa fa-comments"></i>
+            </div>
+        </a>
+    </div>
+    <div class="contact">
+        <p style="color: white; font-size: 95px; font-weight: 1000;">CONTACT</p>
+    </div>
+    <div class="get-in-touch">
+        <p style="color: rgb(249, 197, 6); font-family: 'Times New Roman', Times, serif; font-size: 50px; font-weight: 1700px;"> <b style="color: white; font-family: 'Times New Roman', Times, serif; font-size: 50px; font-weight: 1700px;">GET IN</b> TOUCH</p>
+    </div>
+
+    <div class="SHY">
+        <P style="font-size: 40px; color: white;"><em style="font-size: 20px; color: white; font-family: sans-serif;font-weight: 700;">DON'T BE SHY</em><br>
+            <b style="font-size: 15px;">Feel free to get in touch with me. I am always<br>open to discussing new projects, creative ideas or<br>
+        oportunities to be part of your visions.</b></P>
+    </div>
+
+    <div class="yellow-mail">
+        <i class="fa fa-envelope"></i>
+    </div>
+
+    <div class="mail-me">
+        <p style="color: white;">MAIL ME</p>
+    </div>
+    <div class="e-mail">
+        <p style="color: white;"><b><a href="mailto:loiszillions@gmail.com">loiszillions@gmail.com</b></p></a>
+    </div>
+    <div class="yellow-call">
+        <i class="fa fa-phone-square"></i>
+    </div>
+    <div class="call-me">
+        <p style="color: white;">CALL ME</p>
+    </div>
+    <div class="phone-number">
+        <p style="color: white;"><b><a href="tel:+2348081099418">+2348081099418</a></b></p>
+    </div>
+    <div class="facebook">
+        <i class="fab fa-facebook-f"></i>
+    </div>
+    <div class="twitter">
+        <i class="fab fa-twitter"></i>
+    </div>
+    <div class="youtube">
+        <i class="fab fa-youtube"></i>
+    </div>
+
+    <div class="instagram">
+        <i class="fab fa-instagram"></i>
+    </div>
+    <div class="inst">
+        <i class="fa fa-toggle-on"></i>
+    </div>
+    <div class="text-name">
+        <form action="" name="personalinfo">
+            <label for="">
+                <input
+                type="text"
+                minlength="3"
+                name="personName"
+                maxlength="30"
+                required="required"
+                placeholder="YOUR NAME"/>
+            </label>
+        </form>
+    </div>
+
+    <div class="text-mail">
+        <form action="" name="personalinfo">
+            <label for="">
+                <input
+                name="personEmail"
+                type="email"
+                minlength="8"
+                maxlength="30"
+                required="required"
+                placeholder="YOUR E-MAIL"/>
+            </label>
+        </form>
+    </div>
+
+    <div class="text-subject">
+        <form action="" name="personalinfo">
+            <label for="">
+                <input
+                type="text"
+                minlength="3"
+                name="personName"
+                maxlength="30"
+                required="required"
+                placeholder="YOUR SUBJECT"/>
+            </label>
+        </form>
+    </div>
+    <div class="text-message">
+        <form action="" name="personalinfo">
+            <textarea name="txt" id="" cols="78" rows="8" placeholder="YOUR MESSAGE"></textarea>
+        </form>
+    </div>
+    <div class="button">
+        <a href="mailto:loiszillions@gmail.com"><button>SEND MESSAGE</button></a>
+    </div>
+</body>
+</html>
